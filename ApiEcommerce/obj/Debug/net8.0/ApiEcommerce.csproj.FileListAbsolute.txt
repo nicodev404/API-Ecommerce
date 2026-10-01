@@ -1,0 +1,8 @@
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.csproj.AssemblyReference.cache
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.AssemblyInfoInputs.cache
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.AssemblyInfo.cs
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.csproj.CoreCompileInputs.cache
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.MvcApplicationPartsAssemblyInfo.cs
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.MvcApplicationPartsAssemblyInfo.cache
