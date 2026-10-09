@@ -1,6 +1,6 @@
 using System;
 
-namespace ApiEcommerce.Repository;
+namespace ApiEcommerce.Repository.IRepository;
 
 public class CategoryRepository : ICategoryRepository
 {
