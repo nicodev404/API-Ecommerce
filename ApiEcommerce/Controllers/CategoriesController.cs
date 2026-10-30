@@ -66,13 +66,13 @@ namespace ApiEcommerce.Controllers
             }
             if(_categoryRepository.CategoryExists(createCategoryDto.Name))
             {
-                ModelState.AddModelError("CustomError", "La categoría ya esxiste");
+                ModelState.AddModelError("CustomError", "La categoría ya existe");
                 return BadRequest(ModelState);
             }
             var category = _mapper.Map<Category>(createCategoryDto);
             if (!_categoryRepository.CreateCategory(category))
             {
-                ModelState.AddModelError("CustomError", "Algo salió mal al guardar el registro {category.Name}");
+                ModelState.AddModelError("CustomError", $"Algo salió mal al guardar el registro {category.Name}");
                 return StatusCode(500, ModelState);
             }
             return CreatedAtRoute("GetCategory", new {id = category.Id}, category);
@@ -104,7 +104,7 @@ namespace ApiEcommerce.Controllers
             category.Id = id;
             if (!_categoryRepository.UpdateCategory(category))
             {
-                ModelState.AddModelError("CustomError", "Algo salió mal al actualizar el registro {category.Name}");
+                ModelState.AddModelError("CustomError", $"Algo salió mal al actualizar el registro {category.Name}");
                 return StatusCode(500, ModelState);
             }
             return NoContent();
@@ -131,7 +131,7 @@ namespace ApiEcommerce.Controllers
             category.Id = id;
             if (!_categoryRepository.DeleteCategory(category))
             {
-                ModelState.AddModelError("CustomError", "Algo salió mal al eliminar el registro {category.Name}");
+                ModelState.AddModelError("CustomError", $"Algo salió mal al eliminar el registro {category.Name}");
                 return StatusCode(500, ModelState);
             }
             return NoContent();
