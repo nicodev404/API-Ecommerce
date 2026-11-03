@@ -78,7 +78,7 @@ namespace ApiEcommerce.Controllers
             return CreatedAtRoute("GetCategory", new {id = category.Id}, category);
         }
 
-        [HttpPatch("{id:int}", Name ="UpdsateCategory")]
+        [HttpPatch("{id:int}", Name ="UpdateCategory")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
