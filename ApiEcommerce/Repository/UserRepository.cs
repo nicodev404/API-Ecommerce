@@ -107,7 +107,7 @@ public class UserRepository : IUserRepository
             Username = createUserDto.Username ?? "No Username",
             Name = createUserDto.Name,
             Role = createUserDto.Role,
-            Password = createUserDto.Password
+            Password = encriptedPassword
         };
         _db.Users.Add(user);
         await _db.SaveChangesAsync();
