@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Constants\" />
     <Folder Include="Controllers\" />
     <Folder Include="Mapping\" />
   </ItemGroup>
