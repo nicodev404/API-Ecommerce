@@ -146,3 +146,5 @@ C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ApiEcommerce.genruntimec
 C:\WEB-API-.NET-Ecommerce\ApiEcommerce\obj\Debug\net8.0\ref\ApiEcommerce.dll
 C:\WEB-API-.NET-Ecommerce\ApiEcommerce\bin\Debug\net8.0\AutoMapper.dll
 C:\WEB-API-.NET-Ecommerce\ApiEcommerce\bin\Debug\net8.0\BCrypt-Net-Next.dll
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\WEB-API-.NET-Ecommerce\ApiEcommerce\bin\Debug\net8.0\API-Ecommerce.postman_collection.json
