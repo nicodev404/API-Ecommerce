@@ -238,10 +238,38 @@
         {
           "name": "Listado de usuarios",
           "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{json_web_token_03nr}}",
+                  "type": "string"
+                }
+              ]
+            },
             "method": "GET",
             "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
-              "raw": ""
+              "raw": "http://localhost:5202/api/Users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5202",
+              "path": [
+                "api",
+                "Users"
+              ]
             }
           },
           "response": []
@@ -358,7 +386,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_0zpp}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -367,7 +395,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"price\": 40,\r\n  \"imgUrl\": \"string\",\r\n  \"sku\": \"string\",\r\n  \"stock\": 5,\r\n  \"updateDate\": \"2026-11-12T18:00:33.278Z\",\r\n  \"categoryId\": 0\r\n}",
+              "raw": "{\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"price\": 40,\r\n  \"imgUrl\": \"string\",\r\n  \"sku\": \"string\",\r\n  \"stock\": 5,\r\n  \"updateDate\": \"2026-11-12T18:00:33.278Z\",\r\n  \"categoryId\": 1003\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -397,7 +425,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_11l5}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -406,7 +434,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"Harry Potter\",\r\n  \"description\": \"Libro de fantasía\",\r\n  \"price\": 25,\r\n  \"imgUrl\": \"string\",\r\n  \"sku\": \"string\",\r\n  \"stock\": 0,\r\n  \"updateDate\": \"2026-11-12T18:11:23.274Z\",\r\n  \"categoryId\": 1003\r\n}",
+              "raw": "{\r\n  \"name\": \"El señor de los anillos\",\r\n  \"description\": \"Libro de fantasía\",\r\n  \"price\": 75,\r\n  \"imgUrl\": \"string\",\r\n  \"sku\": \"string\",\r\n  \"stock\": 5,\r\n  \"updateDate\": \"2026-11-12T18:11:23.274Z\",\r\n  \"categoryId\": 1003\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -437,7 +465,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_0xrh}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -477,7 +505,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_0xrh}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -494,7 +522,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5202/api/Products/searchProductByCategory/1",
+              "raw": "http://localhost:5202/api/Products/searchProductByCategory/1003",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -504,7 +532,7 @@
                 "api",
                 "Products",
                 "searchProductByCategory",
-                "1"
+                "1003"
               ]
             }
           },
@@ -518,7 +546,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_0xrh}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -559,7 +587,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "{{json_web_token_0xrh}}",
+                  "value": "{{json_web_token_0iyr}}",
                   "type": "string"
                 }
               ]
@@ -606,6 +634,14 @@
     },
     {
       "key": "json_web_token_0xrh",
+      "secret": true
+    },
+    {
+      "key": "json_web_token_03nr",
+      "secret": true
+    },
+    {
+      "key": "json_web_token_0iyr",
       "secret": true
     }
   ]
