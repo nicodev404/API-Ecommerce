@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj": {}
+    "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj": {}
   },
   "projects": {
-    "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj": {
+    "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+        "projectUniqueName": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
         "projectName": "ApiEcommerce",
-        "projectPath": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+        "projectPath": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
         "packagesPath": "C:\\Users\\Fabri\\.nuget\\packages\\",
-        "outputPath": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\obj\\",
+        "outputPath": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

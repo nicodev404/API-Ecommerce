@@ -4120,11 +4120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "projectUniqueName": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
       "projectName": "ApiEcommerce",
-      "projectPath": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "projectPath": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\ApiEcommerce.csproj",
       "packagesPath": "C:\\Users\\Fabri\\.nuget\\packages\\",
-      "outputPath": "C:\\WEB-API-.NET-Ecommerce\\ApiEcommerce\\obj\\",
+      "outputPath": "C:\\Proyectos\\Api-Ecommerce\\ApiEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4235,6 +4235,26 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 14.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6vhm-j9h7-f9gh",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 14.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gpwp-5797-mjff",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",
